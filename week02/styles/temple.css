@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+
+}
+
+header,
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    box-shadow: 0 0 30px black;
+}
+
+section {
+    background-color: lightgrey;
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 20px;
+
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
