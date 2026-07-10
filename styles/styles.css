@@ -1,3 +1,8 @@
+:root {
+    --header-color: darkblue;
+    --main-font-color: black;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
