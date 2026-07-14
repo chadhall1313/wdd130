@@ -1,7 +1,7 @@
 :root {
     --primary-color: #3d5a80;
     --secondary-color: #98c1d9;
-    --accent1-color: #e0fbfc;
+    --accent1-color: black;
     --accent2-color: #ee6c4d;
     --heading-font: serif;
     --body-font: sans-serif;
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 header,
@@ -78,6 +78,6 @@ h1 {
 
 }
 
-.footer img {
+.footer {
     width: 20px;
 }
