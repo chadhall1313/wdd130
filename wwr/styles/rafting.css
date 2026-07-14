@@ -78,6 +78,7 @@ h1 {
 
 }
 
-.footer {
-    width: 20px;
+footer img {
+    width: 40px;
+    padding: 5px;
 }
