@@ -2,7 +2,7 @@
     --primary-color: #3d5a80;
     --secondary-color: #edeeef;
     --accent1-color: black;
-    --accent2-color: #ee6c4d;
+    --accent2-color: #fc987e;
     --heading-font: serif;
     --body-font: sans-serif;
 }
@@ -31,7 +31,7 @@ header {
     align-items: center;
     background-color: var(--primary-color);
     margin-bottom: 10px;
-    border: solid black 1px;
+    border: solid var(--accent1-color) 1px;
 }
 
 header img {
@@ -41,7 +41,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
     background-color: var(--primary-color);
 }
 
@@ -54,7 +54,7 @@ article {
 }
 
 section {
-    border: solid black 1px;
+    border: solid var(--accent1-color) 1px;
 }
 
 .socialmedia a {
