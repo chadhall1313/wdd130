@@ -12,16 +12,21 @@
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid;
 }
 
 main img {
@@ -38,7 +43,8 @@ p {
 }
 
 main {
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
@@ -46,6 +52,8 @@ aside {
     background-color: aliceblue;
     color: midnightblue;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -66,7 +74,19 @@ footer {
     text-align: center;
 }
 
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /* Class Selectors */
+
+.grid {
+    display: grid;
+    align-items: center;
+}
 
 .box {
     margin: 1rem;
