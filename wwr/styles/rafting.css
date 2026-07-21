@@ -1,6 +1,6 @@
 :root {
     --primary-color: #3d5a80;
-    --secondary-color: #e5ebef;
+    --secondary-color: #edeeef;
     --accent1-color: black;
     --accent2-color: #ee6c4d;
     --heading-font: serif;
@@ -41,8 +41,8 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    background-color: var(--accent2-color);
+    color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 
 nav,
