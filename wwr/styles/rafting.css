@@ -41,7 +41,7 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
