@@ -1,0 +1,62 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+legend {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    justify-self: center;
+    margin: 35px;
+}
+
+fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: large;
+}
+
+div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+textarea {
+    min-height: 50px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    display: flex;
+    justify-self: center;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+}

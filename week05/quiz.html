@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chad Hall">
+    <meta name="description" content="A 4 question quiz on the basics of HTML and CSS.">
+    <title>HTML Quiz - Chad Hall</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Questions - please read carefully</legend>
+                <div>
+                    <label for="q1">1: How do you type a comment in CSS?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div>
+                    <label for="q2">2: Describe the importance of semantic elements in HTML.</label>
+                    <textarea id="q2" name="q2" required></textarea>
+                </div>
+                <div>
+                    <label for="q3">3: Which is a valid format for css?</label>
+                    <select name="q3" id="q3" required>
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="1">border: 1px solid black;</option>
+                        <option value="2">make-border: 1px solid black;</option>
+                        <option value="3">create-border: 1px solid black;</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="q4">4: How many '1fr's should you put if you want four
+                        columns?</label>
+                    <input type="number" id="q4" name="q4" required>
+                </div>
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy Chad Hall | 2026</p>
+    </footer>
+</body>
+
+</html>
