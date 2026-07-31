@@ -148,3 +148,90 @@ footer img {
     width: 40px;
     padding: 5px;
 }
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.employees img {
+    max-width: 100%;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+.contact {
+    display: grid;
+    text-align: center;
+}
+
+.contact ul {
+    list-style-type: none;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+.mapform {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.map {
+    max-width: 500px;
+}
+
+button {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 5px;
+    border-radius: 6px;
+    border-color: var(--primary-color);
+    display: flex;
+    justify-self: center;
+    font-size: large;
+    box-shadow: 3px 3px 10px 1px var(--accent1-color);
+    justify-content: center;
+    width: 50%;
+}
+
+form div {
+    padding: 10px;
+}
+
+.radio,
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radio-option {
+    display: flex;
+    flex-direction: column;
+}
+
+.employees figcaption {
+    font-size: large;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+textarea {
+    height: 100%;
+}
+
+.message {
+    display: grid
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+}

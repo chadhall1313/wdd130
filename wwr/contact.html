@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="This page includes a way for interested customers to reach out to contact us.">
+    <meta name="author" content="Chad Hall">
+    <title>Contact Us | The Rafters</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/splash.png" alt="Logo for rafting company">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/rafting-hero.webp" alt="">
+            <h1>The Rafters</h1>
+            <article>
+                <img src="images/happy-employee.webp" alt="Happy, working employee">
+                <p>We are committed to a safe, happy, fun, and exciting ride!</p>
+            </article>
+        </div>
+        <section class="contact">
+            <h2 class="item1">Contact Information</h2>
+            <ul>
+                <li>100 Kelly's Parkway</li>
+                <li>Cascade, ID 83611</li>
+                <li>(208) 123 - 4567</li>
+                <li>information@therafters.com</li>
+            </ul>
+        </section>
+        <section class="mapform">
+            <h2 class="item1">Contact Us</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28943.806487682596!2d-116.0311598906031!3d44.51403362021297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1785528760766!5m2!1sen!2sus"
+              width="450" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin" class="map"></iframe>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="abc@therafters.com"
+                      required>
+                </div>
+                <div class="radio-option">
+                    <label>Message Purpose</label>
+                    <div class="radio">
+                        <input type="radio" id="inquiry" name="reason" value="inquiry" required>
+                        <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="question" name="reason" value="question" required>
+                        <label for="question">Reservation Question</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="suggestion" name="reason" value="suggestion"
+                          required>
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="type">Message</label>
+                    <textarea id="type" name="type" required
+                      placeholder="Your message here"></textarea>
+                </div>
+                <div class="newsletter">
+                    <input type="checkbox" id="news" name="news">
+                    <label for="news">Subscribe to monthly newsletter!</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="employees">
+            <h2 class="item1">We are here to serve YOU!</h2>
+            <figure>
+                <img src="images/employee1.webp" alt="employee 1">
+                <figcaption>Maerik James</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="employee 2">
+                <figcaption>Dustin Hollings</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="employee 3">
+                <figcaption>Janet Smith</figcaption>
+            </figure>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 | The Rafters | Chad Hall</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg"
+                  alt="Instagram icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn icon"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
