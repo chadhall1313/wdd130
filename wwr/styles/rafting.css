@@ -53,10 +53,6 @@ article {
     padding: 8px;
 }
 
-section {
-    border: solid var(--accent1-color) 1px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
@@ -193,6 +189,7 @@ button {
     box-shadow: 3px 3px 10px 1px var(--accent1-color);
     justify-content: center;
     width: 50%;
+    margin: 10px;
 }
 
 form div {
@@ -234,4 +231,69 @@ input[type="text"],
 input[type="email"] {
     width: 100%;
     padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr .5fr 2fr;
+}
+
+.left img,
+.right img {
+    max-width: 100%;
+    position: relative;
+    top: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.middle img {
+    display: flex;
+    justify-self: center;
+}
+
+.adventures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+    place-self: center;
+}
+
+.adventures img {
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* remove this after */
+section {
+    border: 1px solid black;
+}
+
+/* AHHHHHHHHHHHHHHH */
+
+thead tr,
+tfoot tr {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    width: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 2px;
 }
