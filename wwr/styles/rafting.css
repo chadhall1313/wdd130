@@ -290,3 +290,18 @@ table {
     border: 2px solid black;
     letter-spacing: 2px;
 }
+
+.button-link {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    padding: 5px;
+    border-radius: 6px;
+    border-color: var(--primary-color);
+    display: flex;
+    justify-self: center;
+    font-size: large;
+    box-shadow: 3px 3px 10px 1px var(--accent1-color);
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+}
